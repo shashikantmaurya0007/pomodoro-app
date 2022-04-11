@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    height: 4rem;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    align-items: center;
+}
+
+.navbar-heading{
+    margin-left: 1rem;
+}
+
+.navbar-modes {
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+.navbar-heading, .navbar-modes{
+    cursor: pointer;
+}

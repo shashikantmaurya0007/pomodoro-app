@@ -1,0 +1,24 @@
+.task {
+  display: flex;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.task-title {
+  word-break: break-word;
+  text-align: left;
+  width: 70%;
+  cursor: pointer;
+  background-color: rgb(255, 123, 0);
+}
+
+.task-buttons {
+  margin-left: auto;
+}
+
+.task-edit,
+.task-delete {
+  margin-right: 1rem;
+}

@@ -1,0 +1,16 @@
+.pomo {
+  text-align: left;
+  width: 30rem;
+}
+.pomo-container {
+  width: 100%;
+  margin: 3rem 0;
+  padding: 0 1rem;
+}
+.pomo-title {
+  text-transform: uppercase;
+}
+.pomo-desc {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color: rgb(6, 179, 83);
+  --secondary-color: rgb(255, 255, 255);
+  --black : black;
+  --lightblue: lightblue;
+}
+.App {
+  text-align: center;
+}

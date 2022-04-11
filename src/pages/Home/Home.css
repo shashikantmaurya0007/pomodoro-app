@@ -1,0 +1,35 @@
+.home {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-heading {
+  margin-left: 1rem;
+  text-align: left;
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  padding-right: 2rem;
+  width: 80%;
+}
+.home-clock {
+  margin-right: 1rem;
+  margin-left: auto;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+.home-btn {
+  border: none;
+  padding: 9px 0;
+  margin: 1rem;
+  width: 14rem;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}

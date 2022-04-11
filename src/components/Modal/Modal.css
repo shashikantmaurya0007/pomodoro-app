@@ -1,0 +1,64 @@
+.modal {
+  border: 3px solid var(--primary-color);
+  border-radius: 1rem;
+  background-color: var(--secondary-color);
+  width: 27rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  position: absolute;
+  height: 22rem;
+  top: 2rem;
+  left: 2rem;
+  z-index: 1;
+}
+
+.modal-input {
+  display: block;
+  width: 80%;
+  margin: 5px auto;
+  background-color: rgb(159, 240, 159);
+  border: none;
+  outline: none;
+}
+
+.modal-desc {
+  min-height: 5rem;
+}
+.model-head {
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: light;
+  width: 80%;
+  margin: 0 auto;
+}
+.modal-limit {
+  width: 80%;
+  background-color: rgb(159, 240, 159);
+}
+.modal-buttons {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.modal-btn {
+    margin-top: 1rem;
+  padding: 5px 9px;
+  background-color: var(--secondary-color);
+  font-size: 1rem;
+  width: 5rem;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal-add {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.modal-cancel {
+  margin-left: auto;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
